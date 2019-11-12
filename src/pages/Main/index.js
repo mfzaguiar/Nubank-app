@@ -104,7 +104,11 @@ export default function Main() {
               </CardHeader>
               <CardContent>
                 <Title>Saldo disponível</Title>
-                {eye ? <HideMoney /> : <Description>R$ 785.542,18</Description>}
+                {!eye ? (
+                  <HideMoney />
+                ) : (
+                  <Description>R$ 785.542,18</Description>
+                )}
               </CardContent>
               <CardFooter>
                 <Annotation>
