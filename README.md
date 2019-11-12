@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <img src=".github/logo.png" width="100"  alt="Logo">
+  <img src=".github/logo.png" width="100" height="80"  alt="Logo">
 </p>
 
   <h3 align="center">Projeto Layout Nubank - React Native</h3>
